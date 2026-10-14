@@ -21,4 +21,4 @@ Python · Bash · PowerShell · Linux · Wazuh · Sysmon · Kali · Git
 - Google IT Support Professional
 
 ### 📫 Contact
-[Email](mailto:madeboye77.2@gmail.com) · [LinkedIn](www.linkedin.com/in/michaeladeboye)
+[Email](mailto:madeboye77.2@gmail.com) · [LinkedIn](https://www.linkedin.com/in/michaeladeboye)
