@@ -1,7 +1,7 @@
 # Michael Adeboye
 **Information Systems & Technology + Cybersecurity @ UTSA** · USAA Ascent Scholar
 
-I run attacks in my home lab, write detections for them, and document everything. Looking for **Summer 2027 internships** in cyber analysis, IT/infrastructure, and network/systems engineering.
+I run attacks in my home lab, write detections for them, and document everything. Looking for **Summer 2027 internships** in cyber analysis, security engineering, IT/infrastructure, and network/systems engineering.
 
 ### 🔭 Projects
 - **[Detection Home Lab](https://github.com/michaeladeboye/security-writeups/tree/main/home-lab)**: Kali, Windows 11 with Sysmon, and Wazuh on Ubuntu Server, isolated on a host-only network in UTM
