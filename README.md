@@ -1,9 +1,10 @@
 # Michael Adeboye
 **Information Systems & Technology + Cybersecurity @ UTSA** · USAA Ascent Scholar
 
-I run attacks in my home lab, write detections for them, and document everything. Looking for **Summer 2027 internships** in cyber analysis, security engineering, IT/infrastructure, and network/systems engineering.
+I build labs on my Mac and in Azure, run attacks against them, write detections, and document everything. Looking for **Summer 2027 internships** in cyber analysis, security engineering, IT/infrastructure, and network/systems engineering.
 
 ### 🔭 Projects
+- **[Azure AD Lab](https://github.com/michaeladeboye/azure-ad-lab)**: Active Directory domain in Azure with a Server Core domain controller and an admin workstation, reached only through Bastion so neither VM has a public IP. Set up OUs, department security groups, and GPOs for account lockout and workstation logging, then brute-forced a test account to prove the lockout works and unlocked it like a help desk ticket. Includes a PowerShell script that provisions users from a CSV and skips accounts that already exist.
 - **[Detection Home Lab](https://github.com/michaeladeboye/security-writeups/tree/main/home-lab)**: Kali, Windows 11 with Sysmon, and Wazuh on Ubuntu Server, isolated on a host-only network in UTM
 - **[Detection Writeups](https://github.com/michaeladeboye/security-writeups/tree/main/detection-rules)**: Four attack-and-detect cycles run in the lab (brute-force login, suspicious PowerShell, new local admin account, scheduled-task persistence), each with a custom Wazuh rule mapped to MITRE ATT&CK
 - **[CyberDefenders: Web Investigation](https://github.com/michaeladeboye/security-writeups/blob/main/cyberdefenders/web-investigation.md)**: PCAP analysis in Wireshark tracing a SQL injection to an admin login and web shell upload, with IOCs, ATT&CK mapping, and detection ideas
@@ -13,12 +14,14 @@ I run attacks in my home lab, write detections for them, and document everything
 - **[Incident Handler's Journal](https://github.com/michaeladeboye/security-writeups/blob/main/incident-handler-journal.md)**: Incident documentation from the Google Cybersecurity cert, including Wireshark and tcpdump analysis
 
 ### 🔨 Currently
+- Building a Java detection engine that flags attacks in event logs exported from my home lab
 - picoCTF forensics and web exploitation
 - More CyberDefenders blue-team labs
 
 ### 🛠️ Tools
-- **Languages:** Python · Bash · PowerShell
+- **Languages:** Python · Bash · PowerShell · Java
 - **Security:** Wazuh · Sysmon · Wireshark · tcpdump · Nmap · Burp Suite · Hydra · CyberChef · Kali · MITRE ATT&CK
+- **IT & Cloud:** Active Directory · Group Policy · Windows Server · RSAT · Azure (VMs, VNet, Bastion)
 - **Platform:** Linux · UTM · Git · GitHub security (CodeQL, Dependabot)
 
 ### 📜 Certifications
